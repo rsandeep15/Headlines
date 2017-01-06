@@ -61,7 +61,7 @@ extension NewsWindowController : NSTouchBarDelegate {
                         let title = articles[index]["title"]!
                         let article_url = articles[index]["url"]!
                         let button = NSButton(title: title, target: nil, action: nil)
-                        button.font = NSFont(name: "Times-Roman", size: 14)
+                        button.font = NSFont(name: "San Francisco", size: 14)
                         button.tag = index
                         cached_urls[index] = article_url
                         button.action = #selector(self.openUrl)
