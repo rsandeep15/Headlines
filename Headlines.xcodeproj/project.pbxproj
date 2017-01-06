@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CD19A851E1E35CC00657B35 /* NewsControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD19A841E1E35CC00657B35 /* NewsControllerMain.swift */; };
 		2CFDF69F1E1E2F71004EDE48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFDF69E1E1E2F71004EDE48 /* AppDelegate.swift */; };
-		2CFDF6A11E1E2F71004EDE48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFDF6A01E1E2F71004EDE48 /* ViewController.swift */; };
 		2CFDF6A31E1E2F71004EDE48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFDF6A21E1E2F71004EDE48 /* Assets.xcassets */; };
 		2CFDF6A61E1E2F71004EDE48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFDF6A41E1E2F71004EDE48 /* Main.storyboard */; };
+		2CFDF6AE1E1E3404004EDE48 /* NewsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFDF6AD1E1E3404004EDE48 /* NewsWindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2CFDF69B1E1E2F71004EDE48 /* Headline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Headline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD19A841E1E35CC00657B35 /* NewsControllerMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsControllerMain.swift; sourceTree = "<group>"; };
+		2CFDF69B1E1E2F71004EDE48 /* Headlines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Headlines.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFDF69E1E1E2F71004EDE48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2CFDF6A01E1E2F71004EDE48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CFDF6A21E1E2F71004EDE48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CFDF6A51E1E2F71004EDE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CFDF6A71E1E2F71004EDE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CFDF6AD1E1E3404004EDE48 /* NewsWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsWindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +46,7 @@
 		2CFDF69C1E1E2F71004EDE48 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CFDF69B1E1E2F71004EDE48 /* Headline.app */,
+				2CFDF69B1E1E2F71004EDE48 /* Headlines.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,10 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				2CFDF69E1E1E2F71004EDE48 /* AppDelegate.swift */,
-				2CFDF6A01E1E2F71004EDE48 /* ViewController.swift */,
 				2CFDF6A21E1E2F71004EDE48 /* Assets.xcassets */,
 				2CFDF6A41E1E2F71004EDE48 /* Main.storyboard */,
 				2CFDF6A71E1E2F71004EDE48 /* Info.plist */,
+				2CFDF6AD1E1E3404004EDE48 /* NewsWindowController.swift */,
+				2CD19A841E1E35CC00657B35 /* NewsControllerMain.swift */,
 			);
 			path = Headline;
 			sourceTree = "<group>";
@@ -64,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2CFDF69A1E1E2F70004EDE48 /* Headline */ = {
+		2CFDF69A1E1E2F70004EDE48 /* Headlines */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CFDF6AA1E1E2F71004EDE48 /* Build configuration list for PBXNativeTarget "Headline" */;
+			buildConfigurationList = 2CFDF6AA1E1E2F71004EDE48 /* Build configuration list for PBXNativeTarget "Headlines" */;
 			buildPhases = (
 				2CFDF6971E1E2F70004EDE48 /* Sources */,
 				2CFDF6981E1E2F70004EDE48 /* Frameworks */,
@@ -76,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = Headline;
+			name = Headlines;
 			productName = Headline;
-			productReference = 2CFDF69B1E1E2F71004EDE48 /* Headline.app */;
+			productReference = 2CFDF69B1E1E2F71004EDE48 /* Headlines.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2CFDF6961E1E2F70004EDE48 /* Build configuration list for PBXProject "Headline" */;
+			buildConfigurationList = 2CFDF6961E1E2F70004EDE48 /* Build configuration list for PBXProject "Headlines" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -111,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CFDF69A1E1E2F70004EDE48 /* Headline */,
+				2CFDF69A1E1E2F70004EDE48 /* Headlines */,
 			);
 		};
 /* End PBXProject section */
@@ -133,7 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CFDF6A11E1E2F71004EDE48 /* ViewController.swift in Sources */,
+				2CD19A851E1E35CC00657B35 /* NewsControllerMain.swift in Sources */,
+				2CFDF6AE1E1E3404004EDE48 /* NewsWindowController.swift in Sources */,
 				2CFDF69F1E1E2F71004EDE48 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,11 +250,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2SP49XQ42W;
 				INFOPLIST_FILE = Headline/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sandeepraghu.Headline;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandeepraghu.Headlines;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -260,11 +265,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2SP49XQ42W;
 				INFOPLIST_FILE = Headline/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sandeepraghu.Headline;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandeepraghu.Headlines;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -273,7 +279,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CFDF6961E1E2F70004EDE48 /* Build configuration list for PBXProject "Headline" */ = {
+		2CFDF6961E1E2F70004EDE48 /* Build configuration list for PBXProject "Headlines" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CFDF6A81E1E2F71004EDE48 /* Debug */,
@@ -282,13 +288,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CFDF6AA1E1E2F71004EDE48 /* Build configuration list for PBXNativeTarget "Headline" */ = {
+		2CFDF6AA1E1E2F71004EDE48 /* Build configuration list for PBXNativeTarget "Headlines" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CFDF6AB1E1E2F71004EDE48 /* Debug */,
 				2CFDF6AC1E1E2F71004EDE48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

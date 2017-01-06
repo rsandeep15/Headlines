@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2CFDF69A1E1E2F70004EDE48"
-               BuildableName = "Headline.app"
-               BlueprintName = "Headline"
-               ReferencedContainer = "container:Headline.xcodeproj">
+               BuildableName = "Headlines.app"
+               BlueprintName = "Headlines"
+               ReferencedContainer = "container:Headlines.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2CFDF69A1E1E2F70004EDE48"
-            BuildableName = "Headline.app"
-            BlueprintName = "Headline"
-            ReferencedContainer = "container:Headline.xcodeproj">
+            BuildableName = "Headlines.app"
+            BlueprintName = "Headlines"
+            ReferencedContainer = "container:Headlines.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2CFDF69A1E1E2F70004EDE48"
-            BuildableName = "Headline.app"
-            BlueprintName = "Headline"
-            ReferencedContainer = "container:Headline.xcodeproj">
+            BuildableName = "Headlines.app"
+            BlueprintName = "Headlines"
+            ReferencedContainer = "container:Headlines.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2CFDF69A1E1E2F70004EDE48"
-            BuildableName = "Headline.app"
-            BlueprintName = "Headline"
-            ReferencedContainer = "container:Headline.xcodeproj">
+            BuildableName = "Headlines.app"
+            BlueprintName = "Headlines"
+            ReferencedContainer = "container:Headlines.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Headline.xcodeproj">
+      location = "self:/Users/sandeep/Documents/iOSProjects/Headline/Headlines.xcodeproj">
    </FileRef>
 </Workspace>
