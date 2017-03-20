@@ -1,5 +1,5 @@
 # Headlines
-##A macOS TouchBar Application to view the current headlines on the New York Times.
+## A macOS TouchBar Application to view the current headlines on the New York Times.
 
 Touching each headline navigates the user to the associated online article. 
 
